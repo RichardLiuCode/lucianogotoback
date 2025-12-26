@@ -1,3 +1,6 @@
+const speech = new SpeechSynthesisUtterance();
+speech.text = "Luciano go to back";
+window.speechSynthesis.speak(speech);
 const lines = ["LUCIANO", "GO", "TO", "BACK"];
 let currentIndex = 0;
 setTimeout(function () {
